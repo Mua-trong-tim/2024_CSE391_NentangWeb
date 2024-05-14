@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: brown;
+    border-left: thick solid #ff0000;
+    padding-left: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3 {
+    font-size: 70%;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 60%;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-size: 60%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.flex-container {
+    display: flex;
+    background-color: #ffffff;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+  
+.flex-container > div {
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 5px;
+    font-size: 30px;
+}
+
+.course {
+    width: 30%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+i { 
+    color: #ff0000;
+    align-items: start;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
